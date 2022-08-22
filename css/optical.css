@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Roboto:ital,wght@0,400;0,500;1,900&display=swap");
+
+body {
+  font-family: "Noto Sans TC", "Roboto", sans-serif;
+}
+
+.container {
+  /* max-width: 1320px; */
+  margin: 0 auto;
+  /* width: 1296px; */
+  padding-left: 312px;
+  padding-right: 312px;
+}
+.header {
+  background-color: #aa0601;
+  padding: 0 312px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img {
+  max-width: 100%;
+  width: 80px;
+  height: auto;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.menu {
+  width: 492px;
+  display: flex;
+  justify-content: space-between;
+}
+.menu a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.menu li {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 25px 0;
+  cursor: pointer;
+}
+/* ------------------------------------ */
+.type_menu_category {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 312px;
+}
+.category {
+  width: 33.3%;
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 500;
+  padding-top: 24px;
+  padding-bottom: 16px;
+  border: solid 1px #dcdcdc;
+  text-align: center;
+}
+.category a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.category_optical {
+  border-bottom: 7px solid #aa0601;
+}
+.type_menu_pic {
+  display: flex;
+}
+.type_menu_pic li {
+  width: 100%;
+  height: 296px;
+}
+/* ------------------------------------ */
+.content {
+  text-align: center;
+  padding: 80px 0;
+}
+.content h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 42px;
+  line-height: 63px;
+  font-weight: 500;
+}
+.content_text {
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 400;
+}
+.card_group {
+  display: flex;
+  flex-wrap: wrap;
+  /* margin-left: -12px;
+  margin-right: -12px; */
+  margin-top: 32px;
+}
+.card-item {
+  width: 25%;
+  /* padding-left: 12px;
+  padding-right: 12px; */
+  margin-bottom: 80px;
+}
+/* .card-item img {
+  height: 168px;
+} */
+.card-body_text {
+  display: flex;
+  justify-content: space-between;
+}
+.numbering {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 400;
+}
+.price {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 500;
+  color: #aa0601;
+}
+.color {
+  text-align: left;
+  display: flex;
+}
+.color input {
+  width: 24px;
+  height: 24px;
+}
+.color-b {
+  width: 24px;
+  height: 24px;
+  background-color: #5f3e2d;
+  margin-right: 8px;
+  border-radius: 4px;
+}
+.color-org {
+  width: 24px;
+  height: 24px;
+  background-color: #b75929;
+  border-radius: 4px;
+}
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page a {
+  display: inline-block;
+  text-decoration: none;
+  color: #000000;
+}
+.page li {
+  font-family: "Roboto", sans-serif;
+  border: solid 1px #555555;
+}
+.page-cn {
+  font-size: 19px;
+  line-height: 29px;
+  padding: 10px 11px;
+}
+.page-nu {
+  font-size: 18px;
+  line-height: 27px;
+  padding: 11px 15px;
+}
+.page .page-two {
+  background-color: #000000;
+}
+.page .page-two a {
+  color: #ffffff;
+}
+.next-page {
+  background-color: #f2f2f2;
+}
+/* ------------------------------------ */
+footer {
+  background-color: #aa0601;
+  padding: 0 312px;
+}
+.footer_menu {
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 48px;
+  margin-bottom: 24px;
+}
+.footer_menu_title {
+  font-weight: 400;
+  width: 464px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_menu_title a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.footer_menu_icon {
+  width: 208px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_menu_icon img {
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+}
+.contact {
+  margin-bottom: 32px;
+}
+.contact_text {
+  display: flex;
+  color: #ffffff;
+}
+.contact-icon {
+  font-size: 48px;
+  margin-right: 16px;
+}
+.contact_text p {
+  font-size: 36px;
+  line-height: 54px;
+}
+.contact_text a {
+  color: #ffffff;
+  text-decoration: none;
+}
+hr {
+  border: none;
+  border-top: 1px solid #ffffff;
+}
+.mark {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 0;
+  color: #ffffff;
+}
+.mark p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.mark-item {
+  width: 174px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  line-height: 21px;
+}
+.mark-item a {
+  text-decoration: none;
+  color: #ffffff;
+}
